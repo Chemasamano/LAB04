@@ -15,6 +15,10 @@
 		FC1BB6CF1A8497AA00DA2B72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1BB6CE1A8497AA00DA2B72 /* Images.xcassets */; };
 		FC1BB6D21A8497AA00DA2B72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1BB6D01A8497AA00DA2B72 /* LaunchScreen.xib */; };
 		FC1BB6DE1A8497AA00DA2B72 /* PushometroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BB6DD1A8497AA00DA2B72 /* PushometroTests.m */; };
+		FC1BB6E81A849B4000DA2B72 /* UAG_logotype.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC1BB6E71A849B4000DA2B72 /* UAG_logotype.jpg */; };
+		FC1BB6EA1A849B5100DA2B72 /* Botón_PNG.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1BB6E91A849B5100DA2B72 /* Botón_PNG.png */; };
+		FC1BB6EC1A849B6300DA2B72 /* images 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FC1BB6EB1A849B6300DA2B72 /* images 2.jpeg */; };
+		FCB51F961A851B6800DC910D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB51F951A851B6800DC910D /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,11 @@
 		FC1BB6D71A8497AA00DA2B72 /* PushometroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushometroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1BB6DC1A8497AA00DA2B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC1BB6DD1A8497AA00DA2B72 /* PushometroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushometroTests.m; sourceTree = "<group>"; };
+		FC1BB6E71A849B4000DA2B72 /* UAG_logotype.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UAG_logotype.jpg; sourceTree = "<group>"; };
+		FC1BB6E91A849B5100DA2B72 /* Botón_PNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Botón_PNG.png"; sourceTree = "<group>"; };
+		FC1BB6EB1A849B6300DA2B72 /* images 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "images 2.jpeg"; sourceTree = "<group>"; };
+		FCB51F941A851B6800DC910D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		FCB51F951A851B6800DC910D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,9 @@
 		FC1BB6B21A8497AA00DA2B72 = {
 			isa = PBXGroup;
 			children = (
+				FC1BB6EB1A849B6300DA2B72 /* images 2.jpeg */,
+				FC1BB6E91A849B5100DA2B72 /* Botón_PNG.png */,
+				FC1BB6E71A849B4000DA2B72 /* UAG_logotype.jpg */,
 				FC1BB6BD1A8497AA00DA2B72 /* Pushometro */,
 				FC1BB6DA1A8497AA00DA2B72 /* PushometroTests */,
 				FC1BB6BC1A8497AA00DA2B72 /* Products */,
@@ -85,6 +97,8 @@
 			children = (
 				FC1BB6C21A8497AA00DA2B72 /* AppDelegate.h */,
 				FC1BB6C31A8497AA00DA2B72 /* AppDelegate.m */,
+				FCB51F941A851B6800DC910D /* TableViewController.h */,
+				FCB51F951A851B6800DC910D /* TableViewController.m */,
 				FC1BB6C81A8497AA00DA2B72 /* ViewController.h */,
 				FC1BB6C91A8497AA00DA2B72 /* ViewController.m */,
 				FC1BB6CB1A8497AA00DA2B72 /* Main.storyboard */,
@@ -202,8 +216,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1BB6EA1A849B5100DA2B72 /* Botón_PNG.png in Resources */,
+				FC1BB6EC1A849B6300DA2B72 /* images 2.jpeg in Resources */,
 				FC1BB6CD1A8497AA00DA2B72 /* Main.storyboard in Resources */,
 				FC1BB6D21A8497AA00DA2B72 /* LaunchScreen.xib in Resources */,
+				FC1BB6E81A849B4000DA2B72 /* UAG_logotype.jpg in Resources */,
 				FC1BB6CF1A8497AA00DA2B72 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +242,7 @@
 				FC1BB6C71A8497AA00DA2B72 /* Pushometro.xcdatamodeld in Sources */,
 				FC1BB6C41A8497AA00DA2B72 /* AppDelegate.m in Sources */,
 				FC1BB6CA1A8497AA00DA2B72 /* ViewController.m in Sources */,
+				FCB51F961A851B6800DC910D /* TableViewController.m in Sources */,
 				FC1BB6C11A8497AA00DA2B72 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +434,7 @@
 				FC1BB6E31A8497AA00DA2B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC1BB6E41A8497AA00DA2B72 /* Build configuration list for PBXNativeTarget "PushometroTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +443,7 @@
 				FC1BB6E61A8497AA00DA2B72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
