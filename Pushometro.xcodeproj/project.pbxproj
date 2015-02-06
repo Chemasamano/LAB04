@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC1BB6C11A8497AA00DA2B72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BB6C01A8497AA00DA2B72 /* main.m */; };
+		FC1BB6C41A8497AA00DA2B72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BB6C31A8497AA00DA2B72 /* AppDelegate.m */; };
+		FC1BB6C71A8497AA00DA2B72 /* Pushometro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC1BB6C51A8497AA00DA2B72 /* Pushometro.xcdatamodeld */; };
+		FC1BB6CA1A8497AA00DA2B72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BB6C91A8497AA00DA2B72 /* ViewController.m */; };
+		FC1BB6CD1A8497AA00DA2B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1BB6CB1A8497AA00DA2B72 /* Main.storyboard */; };
+		FC1BB6CF1A8497AA00DA2B72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1BB6CE1A8497AA00DA2B72 /* Images.xcassets */; };
+		FC1BB6D21A8497AA00DA2B72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1BB6D01A8497AA00DA2B72 /* LaunchScreen.xib */; };
+		FC1BB6DE1A8497AA00DA2B72 /* PushometroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1BB6DD1A8497AA00DA2B72 /* PushometroTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC1BB6D81A8497AA00DA2B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC1BB6B31A8497AA00DA2B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC1BB6BA1A8497AA00DA2B72;
+			remoteInfo = Pushometro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC1BB6BB1A8497AA00DA2B72 /* Pushometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pushometro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1BB6BF1A8497AA00DA2B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1BB6C01A8497AA00DA2B72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC1BB6C21A8497AA00DA2B72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC1BB6C31A8497AA00DA2B72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC1BB6C61A8497AA00DA2B72 /* Pushometro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pushometro.xcdatamodel; sourceTree = "<group>"; };
+		FC1BB6C81A8497AA00DA2B72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC1BB6C91A8497AA00DA2B72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC1BB6CC1A8497AA00DA2B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC1BB6CE1A8497AA00DA2B72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC1BB6D11A8497AA00DA2B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FC1BB6D71A8497AA00DA2B72 /* PushometroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushometroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1BB6DC1A8497AA00DA2B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1BB6DD1A8497AA00DA2B72 /* PushometroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushometroTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC1BB6B81A8497AA00DA2B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BB6D41A8497AA00DA2B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC1BB6B21A8497AA00DA2B72 = {
+			isa = PBXGroup;
+			children = (
+				FC1BB6BD1A8497AA00DA2B72 /* Pushometro */,
+				FC1BB6DA1A8497AA00DA2B72 /* PushometroTests */,
+				FC1BB6BC1A8497AA00DA2B72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC1BB6BC1A8497AA00DA2B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BB6BB1A8497AA00DA2B72 /* Pushometro.app */,
+				FC1BB6D71A8497AA00DA2B72 /* PushometroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC1BB6BD1A8497AA00DA2B72 /* Pushometro */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BB6C21A8497AA00DA2B72 /* AppDelegate.h */,
+				FC1BB6C31A8497AA00DA2B72 /* AppDelegate.m */,
+				FC1BB6C81A8497AA00DA2B72 /* ViewController.h */,
+				FC1BB6C91A8497AA00DA2B72 /* ViewController.m */,
+				FC1BB6CB1A8497AA00DA2B72 /* Main.storyboard */,
+				FC1BB6CE1A8497AA00DA2B72 /* Images.xcassets */,
+				FC1BB6D01A8497AA00DA2B72 /* LaunchScreen.xib */,
+				FC1BB6C51A8497AA00DA2B72 /* Pushometro.xcdatamodeld */,
+				FC1BB6BE1A8497AA00DA2B72 /* Supporting Files */,
+			);
+			path = Pushometro;
+			sourceTree = "<group>";
+		};
+		FC1BB6BE1A8497AA00DA2B72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BB6BF1A8497AA00DA2B72 /* Info.plist */,
+				FC1BB6C01A8497AA00DA2B72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC1BB6DA1A8497AA00DA2B72 /* PushometroTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BB6DD1A8497AA00DA2B72 /* PushometroTests.m */,
+				FC1BB6DB1A8497AA00DA2B72 /* Supporting Files */,
+			);
+			path = PushometroTests;
+			sourceTree = "<group>";
+		};
+		FC1BB6DB1A8497AA00DA2B72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BB6DC1A8497AA00DA2B72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC1BB6BA1A8497AA00DA2B72 /* Pushometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1BB6E11A8497AA00DA2B72 /* Build configuration list for PBXNativeTarget "Pushometro" */;
+			buildPhases = (
+				FC1BB6B71A8497AA00DA2B72 /* Sources */,
+				FC1BB6B81A8497AA00DA2B72 /* Frameworks */,
+				FC1BB6B91A8497AA00DA2B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pushometro;
+			productName = Pushometro;
+			productReference = FC1BB6BB1A8497AA00DA2B72 /* Pushometro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC1BB6D61A8497AA00DA2B72 /* PushometroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1BB6E41A8497AA00DA2B72 /* Build configuration list for PBXNativeTarget "PushometroTests" */;
+			buildPhases = (
+				FC1BB6D31A8497AA00DA2B72 /* Sources */,
+				FC1BB6D41A8497AA00DA2B72 /* Frameworks */,
+				FC1BB6D51A8497AA00DA2B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC1BB6D91A8497AA00DA2B72 /* PBXTargetDependency */,
+			);
+			name = PushometroTests;
+			productName = PushometroTests;
+			productReference = FC1BB6D71A8497AA00DA2B72 /* PushometroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1BB6B31A8497AA00DA2B72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Chemamac;
+				TargetAttributes = {
+					FC1BB6BA1A8497AA00DA2B72 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FC1BB6D61A8497AA00DA2B72 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FC1BB6BA1A8497AA00DA2B72;
+					};
+				};
+			};
+			buildConfigurationList = FC1BB6B61A8497AA00DA2B72 /* Build configuration list for PBXProject "Pushometro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC1BB6B21A8497AA00DA2B72;
+			productRefGroup = FC1BB6BC1A8497AA00DA2B72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1BB6BA1A8497AA00DA2B72 /* Pushometro */,
+				FC1BB6D61A8497AA00DA2B72 /* PushometroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC1BB6B91A8497AA00DA2B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1BB6CD1A8497AA00DA2B72 /* Main.storyboard in Resources */,
+				FC1BB6D21A8497AA00DA2B72 /* LaunchScreen.xib in Resources */,
+				FC1BB6CF1A8497AA00DA2B72 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BB6D51A8497AA00DA2B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1BB6B71A8497AA00DA2B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1BB6C71A8497AA00DA2B72 /* Pushometro.xcdatamodeld in Sources */,
+				FC1BB6C41A8497AA00DA2B72 /* AppDelegate.m in Sources */,
+				FC1BB6CA1A8497AA00DA2B72 /* ViewController.m in Sources */,
+				FC1BB6C11A8497AA00DA2B72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1BB6D31A8497AA00DA2B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1BB6DE1A8497AA00DA2B72 /* PushometroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC1BB6D91A8497AA00DA2B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC1BB6BA1A8497AA00DA2B72 /* Pushometro */;
+			targetProxy = FC1BB6D81A8497AA00DA2B72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC1BB6CB1A8497AA00DA2B72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1BB6CC1A8497AA00DA2B72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC1BB6D01A8497AA00DA2B72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1BB6D11A8497AA00DA2B72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC1BB6DF1A8497AA00DA2B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC1BB6E01A8497AA00DA2B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1BB6E21A8497AA00DA2B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pushometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC1BB6E31A8497AA00DA2B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pushometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC1BB6E51A8497AA00DA2B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PushometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pushometro.app/Pushometro";
+			};
+			name = Debug;
+		};
+		FC1BB6E61A8497AA00DA2B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PushometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pushometro.app/Pushometro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC1BB6B61A8497AA00DA2B72 /* Build configuration list for PBXProject "Pushometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BB6DF1A8497AA00DA2B72 /* Debug */,
+				FC1BB6E01A8497AA00DA2B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1BB6E11A8497AA00DA2B72 /* Build configuration list for PBXNativeTarget "Pushometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BB6E21A8497AA00DA2B72 /* Debug */,
+				FC1BB6E31A8497AA00DA2B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC1BB6E41A8497AA00DA2B72 /* Build configuration list for PBXNativeTarget "PushometroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1BB6E51A8497AA00DA2B72 /* Debug */,
+				FC1BB6E61A8497AA00DA2B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC1BB6C51A8497AA00DA2B72 /* Pushometro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC1BB6C61A8497AA00DA2B72 /* Pushometro.xcdatamodel */,
+			);
+			currentVersion = FC1BB6C61A8497AA00DA2B72 /* Pushometro.xcdatamodel */;
+			path = Pushometro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC1BB6B31A8497AA00DA2B72 /* Project object */;
+}
